@@ -8,7 +8,7 @@
 <body> 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
- <a class="active" href="https://melonmuncher911.github.io">Home</a>
+  <a class="active" href="https://melonmuncher911.github.io">Home</a>
   <a href=" https://melonmuncher911.github.io/Viper/">Viper dogfish</a>
   <a href=" https://melonmuncher911.github.io/Hammerhead/">Hammerhead Shark</a>
   <a href=" https://melonmuncher911.github.io/GreatWhite/">Great white Shark</a>
@@ -17,6 +17,16 @@
   <a href=" https://melonmuncher911.github.io/Frilled/">Frilled Shark</a>
   <a href="https://melonmuncher911.github.io/Angular/">Angular roughshark</a>
  </div>
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+ <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
   <br>
     <h2>Megamouth shark</h2> 
  <div class="center-justified">
